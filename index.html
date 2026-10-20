@@ -1,0 +1,464 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alumni Association | College Network</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        Welcome to Our Alumni Community!
+        <a href="#join">Join Our Network →</a>
+    </div>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <a href="#home" class="logo">
+            <span class="logo-icon">AC</span>
+            <span>
+                <strong>ALUMNI ASSOCIATION</strong>
+                <small>Connecting Generations</small>
+            </span>
+        </a>
+
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false">☰</button>
+
+        <nav class="navbar" id="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#alumni">Alumni</a>
+            <a href="#events">Events</a>
+            <a href="#careers">Careers</a>
+            <a href="#contact">Contact</a>
+            <a href="#join" class="nav-button">Join Us</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="tagline">YOUR COLLEGE • YOUR COMMUNITY • YOUR FUTURE</p>
+
+                <h1>
+                    Once a Student,<br>
+                    <span>Always an Alumni.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Welcome to our Alumni Association. Reconnect with your
+                    classmates, discover new opportunities, share your
+                    achievements, and stay connected with your college forever.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#join" class="btn btn-primary">Become a Member ↗</a>
+                    <a href="#about" class="btn btn-outline">Explore More</a>
+                </div>
+
+                <div class="hero-note">
+                    ✦ Building lifelong connections and inspiring future generations
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="statistics">
+            <div class="stat-box">
+                <h2>2,500+</h2>
+                <p>Alumni Members</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>50+</h2>
+                <p>Annual Events</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>100+</h2>
+                <p>Career Mentors</p>
+            </div>
+
+            <div class="stat-box">
+                <h2>20+</h2>
+                <p>Years of Connection</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section about" id="about">
+            <div class="section-heading">
+                <p class="section-label">ABOUT OUR ASSOCIATION</p>
+                <h2>A Bond That Goes <span>Beyond Graduation</span></h2>
+                <p>
+                    Our association brings graduates together to build
+                    relationships, exchange knowledge, and create opportunities.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1000&q=80"
+                        alt="College students and alumni gathering">
+                </div>
+
+                <div class="about-content">
+                    <h3>Welcome to Our Alumni Family</h3>
+
+                    <p>
+                        Graduation is not the end of our college journey.
+                        It is the beginning of a lifelong relationship with
+                        our institution and fellow graduates.
+                    </p>
+
+                    <p>
+                        The Alumni Association provides a platform for
+                        networking, professional growth, mentorship,
+                        reunions, and sharing valuable experiences.
+                    </p>
+
+                    <div class="mission-box">
+                        <h4>Our Vision</h4>
+                        <p>
+                            To build a strong and supportive alumni community
+                            that inspires excellence and lifelong learning.
+                        </p>
+                    </div>
+
+                    <div class="mission-box">
+                        <h4>Our Mission</h4>
+                        <p>
+                            To connect graduates, support students, encourage
+                            innovation, and strengthen our college community.
+                        </p>
+                    </div>
+
+                    <a href="#alumni" class="text-link">Discover Our Community →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alumni Community -->
+        <section class="section alumni-section" id="alumni">
+            <div class="section-heading">
+                <p class="section-label">OUR COMMUNITY</p>
+                <h2>Connect. Collaborate. <span>Celebrate.</span></h2>
+                <p>
+                    Our alumni network creates opportunities for learning,
+                    sharing, and professional development.
+                </p>
+            </div>
+
+            <div class="card-grid">
+                <article class="info-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Networking</h3>
+                    <p>
+                        Reconnect with classmates and build meaningful
+                        professional relationships across industries.
+                    </p>
+                    <a href="#join">Connect With Alumni →</a>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon">🎓</div>
+                    <h3>Mentorship</h3>
+                    <p>
+                        Experienced graduates can guide students with
+                        career advice, skills, and industry knowledge.
+                    </p>
+                    <a href="#join">Become a Mentor →</a>
+                </article>
+
+                <article class="info-card">
+                    <div class="card-icon">💼</div>
+                    <h3>Career Growth</h3>
+                    <p>
+                        Discover internships, job opportunities, and
+                        professional development programs.
+                    </p>
+                    <a href="#careers">Explore Careers →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="section events-section" id="events">
+            <div class="section-heading">
+                <p class="section-label">EVENTS AND ACTIVITIES</p>
+                <h2>Memories That Bring Us <span>Together</span></h2>
+                <p>
+                    Participate in events that strengthen our alumni bond
+                    and create new memories.
+                </p>
+            </div>
+
+            <div class="event-grid">
+                <article class="event-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=900&q=80"
+                        alt="Alumni reunion event">
+
+                    <div class="event-content">
+                        <span class="event-type">REUNION</span>
+                        <h3>Annual Alumni Meet</h3>
+                        <p>
+                            Reunite with friends, faculty members, and
+                            fellow graduates on campus.
+                        </p>
+                        <p class="event-detail">📍 College Auditorium</p>
+                        <a href="#contact">Know More →</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                        alt="Professional workshop">
+
+                    <div class="event-content">
+                        <span class="event-type">WORKSHOP</span>
+                        <h3>Industry Interaction</h3>
+                        <p>
+                            Learn about current technologies, industry
+                            expectations, and professional skills.
+                        </p>
+                        <p class="event-detail">📍 Seminar Hall</p>
+                        <a href="#contact">Know More →</a>
+                    </div>
+                </article>
+
+                <article class="event-card">
+                    <img
+                        src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=900&q=80"
+                        alt="Career mentorship session">
+
+                    <div class="event-content">
+                        <span class="event-type">MENTORSHIP</span>
+                        <h3>Career Guidance Day</h3>
+                        <p>
+                            Meet alumni professionals and gain useful
+                            advice for your future career.
+                        </p>
+                        <p class="event-detail">📍 Innovation Centre</p>
+                        <a href="#contact">Know More →</a>
+                    </div>
+                </article>
+            </div>
+
+            <p class="sample-note">
+                Note: Event names and venues are examples. Update them with
+                your college's official event details.
+            </p>
+        </section>
+
+        <!-- Career Section -->
+        <section class="career-section" id="careers">
+            <div class="career-content">
+                <p class="section-label light-label">CAREER AND OPPORTUNITIES</p>
+
+                <h2>Let Your Experience<br>Inspire the <span>Next Generation.</span></h2>
+
+                <p>
+                    Alumni can share job openings, recommend talented
+                    graduates, offer internships, and guide students
+                    towards successful careers.
+                </p>
+
+                <a href="#join" class="btn btn-primary">Share an Opportunity ↗</a>
+            </div>
+
+            <div class="career-points">
+                <div class="career-item">
+                    <span>01</span>
+                    <div>
+                        <h3>Job Opportunities</h3>
+                        <p>Share verified job openings with the alumni network.</p>
+                    </div>
+                </div>
+
+                <div class="career-item">
+                    <span>02</span>
+                    <div>
+                        <h3>Internship Support</h3>
+                        <p>Help students discover practical learning opportunities.</p>
+                    </div>
+                </div>
+
+                <div class="career-item">
+                    <span>03</span>
+                    <div>
+                        <h3>Career Mentoring</h3>
+                        <p>Support students through guidance and experience sharing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Membership Form -->
+        <section class="section join-section" id="join">
+            <div class="join-intro">
+                <p class="section-label">BECOME A MEMBER</p>
+                <h2>Your Alumni Journey <span>Continues Here.</span></h2>
+                <p>
+                    Join our community to reconnect, contribute, and
+                    discover opportunities. Complete the form to register
+                    your interest.
+                </p>
+
+                <div class="join-benefit">✓ Stay connected with your college</div>
+                <div class="join-benefit">✓ Receive alumni event updates</div>
+                <div class="join-benefit">✓ Participate in mentorship activities</div>
+                <div class="join-benefit">✓ Share career opportunities</div>
+            </div>
+
+            <form class="join-form" id="joinForm" novalidate>
+                <h3>Alumni Membership Form</h3>
+                <p class="form-subtitle">Enter your details below.</p>
+
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName"
+                       placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email"
+                       placeholder="name@example.com" required>
+
+                <div class="form-row">
+                    <div>
+                        <label for="department">Department</label>
+                        <select id="department" name="department" required>
+                            <option value="">Select department</option>
+                            <option>Artificial Intelligence and Data Science</option>
+                            <option>Computer Science Engineering</option>
+                            <option>Information Technology</option>
+                            <option>Electronics and Communication</option>
+                            <option>Mechanical Engineering</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="graduationYear">Graduation Year</label>
+                        <input type="number" id="graduationYear"
+                               name="graduationYear"
+                               placeholder="e.g. 2024" min="1950" required>
+                    </div>
+                </div>
+
+                <label for="currentRole">Current Status</label>
+                <select id="currentRole" name="currentRole" required>
+                    <option value="">Select your status</option>
+                    <option>Student</option>
+                    <option>Employed</option>
+                    <option>Entrepreneur</option>
+                    <option>Higher Studies</option>
+                    <option>Other</option>
+                </select>
+
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" name="message" rows="4"
+                          placeholder="Tell us how you would like to participate"></textarea>
+
+                <label class="consent-label">
+                    <input type="checkbox" id="consent" required>
+                    I agree to be contacted about alumni activities.
+                </label>
+
+                <button type="submit" class="btn btn-submit">
+                    Submit Registration →
+                </button>
+
+                <p id="formMessage" class="form-message" role="status"
+                   aria-live="polite"></p>
+
+                <p class="privacy-note">
+                    Demo form: information is not saved to a database.
+                </p>
+            </form>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <p class="section-label light-label">GET IN TOUCH</p>
+            <h2>We'd Love to Hear From You</h2>
+            <p>
+                Have an alumni story, event idea, or career opportunity?
+                Contact the association team.
+            </p>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <span>✉</span>
+                    <h3>Email</h3>
+                    <p>alumni@example.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <span>⌖</span>
+                    <h3>Address</h3>
+                    <p>College Campus, Tamil Nadu, India</p>
+                </div>
+
+                <div class="contact-item">
+                    <span>◷</span>
+                    <h3>Office Hours</h3>
+                    <p>Monday – Friday</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div>
+                <h3>ALUMNI ASSOCIATION</h3>
+                <p>
+                    Connecting graduates, empowering students,
+                    and building a stronger college community.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#events">Events</a>
+                <a href="#join">Membership</a>
+            </div>
+
+            <div>
+                <h4>Community</h4>
+                <a href="#alumni">Alumni Network</a>
+                <a href="#careers">Career Opportunities</a>
+                <a href="#join">Become a Mentor</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© <span id="currentYear"></span> Alumni Association. All rights reserved.</p>
+            <a href="#home">Back to Top ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
